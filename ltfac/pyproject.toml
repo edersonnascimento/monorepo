@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ltfac"
+version = "0.1.0"
+description = "Estatísticas da Lotofácil a partir de resultados em CSV."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ltfac = "src.__main__:main"
+
+[tool.setuptools]
+packages = ["src"]
