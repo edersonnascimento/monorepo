@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ltfac local data (CSV input, generated output)
+ltfac/.local/
+
+# ltfac docs/specs (superpowers scaffolding)
+ltfac/docs/superpowers/
